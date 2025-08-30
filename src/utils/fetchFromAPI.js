@@ -27,6 +27,7 @@ export const fetchFromAPI = async (endpoint, params = {}) => {
 
 
 // ### IMPORTANT : Rapid API Limit over so I used Google's official API.
+//Axios code for RAPID API
 
 // import axios from 'axios';
 
