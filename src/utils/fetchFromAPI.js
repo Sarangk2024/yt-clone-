@@ -49,6 +49,10 @@
 // //   return data;
 // // };
 
+import axios from "axios";
+
+
+
 const API_KEY = "AIzaSyCFUnkDJcTHKO_maBcScg5NEkditAJGST0"; // <-- paste your actual key here
 
 export const fetchFromAPI = async (endpoint, params = {}) => {
