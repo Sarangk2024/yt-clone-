@@ -6,7 +6,7 @@ export const fetchFromAPI = async (endpoint, params = {}) => {
   try {
     const { data } = await axios.get(`${BASE_URL}/${endpoint}`, {
       params: {
-        key: process.env.REACT_APP_YOUTUBE_API_KEY,
+        key:"AIzaSyCFUnkDJcTHKO_maBcScg5NEkditAJGST0",
         ...params,
       },
     });
